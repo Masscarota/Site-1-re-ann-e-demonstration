@@ -72,6 +72,10 @@ header{
     text-align: center;
 }
 
+.no_decoration{
+    text-decoration: none;
+    color: black;
+}
 
 
 /* === PAGE DEVELOPPEMENT === */
@@ -81,19 +85,35 @@ header{
 
 .container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 47%);
     grid-template-rows: repeat(2, 600px);
     gap: 30px;
 }
 
+
 .grid-item{
     display: grid;
-    align-self: center;
+    align-items: center;
     justify-items: center;
-    grid-template-columns: repeat(2, 45%);
+    grid-template-columns: 1fr;
+    transition: 0.3s;
+} 
+
+.grid-item:hover{
+    transform: scale(1.02);
 }
 
+.grid-item .text
+{
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    align-items: center;
+    justify-items: center;
 
+}
+.grid-item .text p{
+    max-width: 600px;
+}
 .container img{
     width: 650px;
     height: 400px;
@@ -101,6 +121,32 @@ header{
 }
 
 
+.grid-item-2{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-items: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.grid-item-2 .text{
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 1fr;
+}
+.grid-item-2 img{
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.grid-item-2 .text p{
+    margin: 0 45px;
+}
+
+
+
+
+
+/* === ... === */
 .titre{
     text-align: center;
 }
