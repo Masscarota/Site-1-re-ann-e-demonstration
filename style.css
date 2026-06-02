@@ -60,6 +60,7 @@ header{
 .container{
     display: grid;
     grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(4, 600px);
     justify-self: center;
     gap: 30px;
 }
@@ -71,11 +72,14 @@ header{
 
 
 .container img{
-    /* rien pour le moment */
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
 }
 
-
-
+.big_margin{
+    margin: 200px 0;
+}
 
 
 
@@ -94,13 +98,7 @@ width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-<<<<<<< HEAD
-
-=======
 }
 img{
-    width: 100%;
     border-radius: 20px;
-    max-width: 500px;
->>>>>>> 644a3a06648616024c514bcdc704800774ff3841
 }
