@@ -52,6 +52,7 @@ header{
 .logoAccueil{
     margin: 20px;
     transition: 0.3s;
+    width: 50px;
 }
 .logoAccueil:hover{
     background-color: white;
