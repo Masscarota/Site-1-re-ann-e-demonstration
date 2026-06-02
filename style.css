@@ -95,6 +95,15 @@ header{
     grid-template-columns: repeat(2, 45%);
 }
 
+.grid-item_center {
+    grid-column: span 2; 
+    display: flex;       
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    margin-top: 20px;   
+}
+
 
 .container img{
     width: 650px;
