@@ -23,7 +23,6 @@ header{
     border-radius: 25px;
     text-decoration: none;
     color: black;
-    margin: 20px;
     transition: 0.3s;
   }
 .liendessu{
@@ -102,7 +101,6 @@ header{
 }
 
 
-
 .titre{
     text-align: center;
 }
@@ -110,15 +108,41 @@ header{
     color: rgb(112, 112, 112);
 }
 .logoaccueil{
-margin-top: 4em;
-margin-bottom: 4em;
+display: flex;
+margin: auto;
+margin-bottom: 2em;
+margin-top: 2em;
+max-width: 600px;
 width: 100%;
 }
 .gridaccueil{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 1em;
 }
 img{
+    width: 100%;
     border-radius: 20px;
+
+}
+.gridaccueil a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 1em;
+    border-radius: 5px;
+}
+.gridaccueil p{
+    margin-bottom: 2em;
+}
+.gridaccueil div{
+    width: 50%;
+    margin: auto;
+}
+.gridaccueil img{
+    width: 50%;
+    margin: auto;
+}
+.gridaccueil a:hover{
 }
