@@ -10,7 +10,7 @@ header{
     align-items: center;
     height: 100px;
     width: 100%;
-    border-bottom: solid 5px rgb(143, 141, 255);
+    border-bottom: solid 5px rgb(4, 0, 164);
     position: sticky;
     top: 0;
     background-color: white;
@@ -74,6 +74,10 @@ header{
     text-align: center;
 }
 
+.no_decoration{
+    text-decoration: none;
+    color: black;
+}
 
 
 /* === PAGE DEVELOPPEMENT === */
@@ -83,18 +87,25 @@ header{
 
 .container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 47%);
     grid-template-rows: repeat(2, 600px);
     gap: 30px;
 }
 
+
 .grid-item{
     display: grid;
-    align-self: center;
+    align-items: center;
     justify-items: center;
-    grid-template-columns: repeat(2, 45%);
+    grid-template-columns: 1fr;
+    transition: 0.3s;
+} 
+
+.grid-item:hover{
+    transform: scale(1.02);
 }
 
+<<<<<<< HEAD
 .grid-item_center {
     grid-column: span 2; 
     display: flex;       
@@ -104,7 +115,19 @@ header{
     margin-top: 20px;   
 }
 
+=======
+.grid-item .text
+{
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    align-items: center;
+    justify-items: center;
+>>>>>>> 6b0b346c5771d27fb13ab9cabb9a8f6b1d62f03b
 
+}
+.grid-item .text p{
+    max-width: 600px;
+}
 .container img{
     width: 650px;
     height: 400px;
@@ -112,6 +135,32 @@ header{
 }
 
 
+.grid-item-2{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-items: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.grid-item-2 .text{
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 1fr;
+}
+.grid-item-2 img{
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.grid-item-2 .text p{
+    margin: 0 45px;
+}
+
+
+
+
+
+/* === ... === */
 .titre{
     text-align: center;
 }
@@ -149,12 +198,19 @@ img{
     margin-bottom: 2em;
 }
 .gridaccueil div{
-    width: 50%;
+    width: 700px;
     margin: auto;
 }
 .gridaccueil img{
-    width: 50%;
+    width: 700px;
     margin: auto;
+    transition: 0.3s;
+}
+.droite:hover{
+    transform: scale(1.05) rotate(1deg);
+}
+.gauche:hover{
+    transform: scale(1.05) rotate(-1deg);
 }
 .plus:hover{
     padding: 1.3em;
@@ -174,7 +230,7 @@ footer{
     top: 0;
     background-color: white;
     margin-top: 5em;
-    border-top: solid 5px rgb(143, 141, 255);
+    border-top: solid 5px rgb(4, 0, 164);
 }
 .fin{
     display:flex;
