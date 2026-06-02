@@ -10,7 +10,7 @@ header{
     align-items: center;
     height: 100px;
     width: 100%;
-    border-bottom: solid 5px rgb(143, 141, 255);
+    border-bottom: solid 5px rgb(4, 0, 164);
     position: sticky;
     top: 0;
     background-color: white;
@@ -140,12 +140,19 @@ img{
     margin-bottom: 2em;
 }
 .gridaccueil div{
-    width: 50%;
+    width: 700px;
     margin: auto;
 }
 .gridaccueil img{
-    width: 50%;
+    width: 700px;
     margin: auto;
+    transition: 0.3s;
+}
+.droite:hover{
+    transform: scale(1.05) rotate(1deg);
+}
+.gauche:hover{
+    transform: scale(1.05) rotate(-1deg);
 }
 .plus:hover{
     padding: 1.3em;
@@ -165,7 +172,7 @@ footer{
     top: 0;
     background-color: white;
     margin-top: 5em;
-    border-top: solid 5px rgb(143, 141, 255);
+    border-top: solid 5px rgb(4, 0, 164);
 }
 .fin{
     display:flex;
