@@ -23,6 +23,7 @@ header{
     border-radius: 25px;
     text-decoration: none;
     color: black;
+    margin: 20px;
     transition: 0.3s;
   }
 .liendessu{
@@ -46,7 +47,6 @@ header{
     color: white;
     box-shadow: 0 4px 12px rgba(0.2,0.2,0.2,0.2);
 }
-<<<<<<< HEAD
 
 
 
@@ -63,14 +63,22 @@ header{
     justify-self: center;
     gap: 30px;
 }
+
 .grid-item{
     display: grid;
     grid-template-columns: repeat(2, 45%);
 }
 
+
 .container img{
     /* rien pour le moment */
-=======
+}
+
+
+
+
+
+
 .titre{
     text-align: center;
 }
@@ -86,5 +94,5 @@ width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
->>>>>>> 235712e5fe48ea961313c7bb18bd7bd51ceb8219
+
 }
