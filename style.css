@@ -40,13 +40,13 @@ header{
     transition: 0.3s;
 }
 .liendessu:hover{
-    background-color: blue; 
+    background-color: rgb(4, 0, 164);
     transform: scale(1.2);
     color: white;
     box-shadow: 0 4px 12px rgba(0.2,0.2,0.2,0.2);
 }
 .a:hover{
-    background-color: blue; 
+    background-color: rgb(4, 0, 164);
     transform: scale(1.2);
     color: white;
     box-shadow: 0 4px 12px rgba(0.2,0.2,0.2,0.2);
