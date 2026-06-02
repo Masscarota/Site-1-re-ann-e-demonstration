@@ -1,0 +1,207 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #444444;
+    background-color: #c8620a0d;
+    width: 100%;
+    margin:0px;
+}
+header{
+    background-color: #c8620a;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    max-width: 1200px;
+}
+.tete{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .a{
+    background-color: #dd7d2a;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    border: solid #e48a3b;
+  }
+.liendessu{
+    background-color: white;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #c8620a;
+}
+.liendessu:hover{
+    background-color: rgba(224, 224, 224, 0.815);
+}
+.a:hover{
+    background-color: #c2722c;
+}
+h1{
+    color:#c8620a;
+    text-align: center;
+}
+.title{
+    border:solid 1px #c8620a;
+    margin: 1em;
+    border-radius: 8px;
+    background-color: rgb(255, 233, 233);
+    text-align: center;
+    padding: 2.5em;
+}
+h2{
+    color:#c8620a;
+    text-align: center;
+}
+h3{
+    color:#c8620a;
+}
+.gridindex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
+    column-gap: 1em;
+}
+.imggrid{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.indexgrid{
+    background-color: rgb(236, 236, 236);
+    box-shadow: 2px 2px 6px rgba(160, 136, 105, 0.2);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+main{
+    max-width: 1000px;
+    margin: 1em 3em;
+}
+.text{
+    border:solid 1px #c8620a;
+    margin:2em 0em;
+    border-radius: 8px;
+    background-color: rgb(255, 233, 233);
+    padding: 2.5em;
+}
+footer{
+    background-color: #c8620a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    max-width: 1200px;
+}
+.imglion{
+    width: 95%;
+    border-radius: 8px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 1em;
+}
+.gridlion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.bulle{
+    border:solid 1px #c8620a;
+    margin: 1em;
+    border-radius: 8px;
+    background-color: rgb(255, 233, 233);
+    padding: 1em; 
+    line-height: 25px;
+}
+.bord{
+    text-align: start;
+}
+.coordonnees{
+    font-weight: bold;
+    display: inline;
+line-height: 50px;
+}
+
+.adresse{
+    font-weight: lighter;
+    margin-left: 30px;
+}
+.contacta{
+    text-decoration: none;
+    color:#c8620a;
+    margin-left: 50px;
+}
+.contactb{
+    text-decoration: none;
+    color:#c8620a;
+    margin-left: 13px;
+}
+form{
+    border:solid 1px #c8620a;
+    margin: 1em;
+    border-radius: 8px;
+    background-color: rgb(255, 233, 233);
+    padding: 1em; 
+    line-height: 25px;
+    max-width: 600px;
+    color:#c8620a;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+input{
+    width: 100%;
+    height:2.6em;
+    border-radius: 4px;
+    border: solid 2px rgb(209, 206, 206)
+}
+.envoye{
+    padding: 1em;
+    padding-bottom: 2em;
+    background-color: #c8620a;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+.aubligation{
+    color:#444444;
+    font-weight: lighter;
+}
+textarea{
+    width: 100%;
+    height: 8em;
+    border: solid 2px rgb(209, 206, 206);
+    border-radius: 4px;
+}
+#ville-id{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+#postal-id{
+grid-row-start: 2;
+width: 75%;
+}
+
+.gridform{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+.envoye:hover{
+    background-color: #af5608;
+    cursor: pointer;
+}
+.indexgrid:hover{
+    background-color: rgb(255, 225, 225);
+}
+.bulle h2{
+    text-align: start;
+}
+.contacter{
+    margin:1em 6em;
+}

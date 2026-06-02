@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="tete">
+        <a href="index.html"><img src="images/savanna-logo.png" width="75" alt="logo" title="logo"></a>
+        <div>Monde des Animaux de la Savane</div>
+    </div><div class="tete">
+        <a href="index.html" class="a">Accueil</a>
+        <a href="lion.html" class="a">Lion</a>
+        <a href="contact.html" class="liendessu">Contact</a>
+    </div>
+    </header>
+    <main class="contacter">
+        <h1>Contactez-nous</h1>
+        <p>Vous avez des questions ou des commentaires ? Nous aimerions avoir de vos nouvelles !</p>
+        <p>Vous pouvez nous contactez par email, téléphone ou en remplissant le formulaire ci-dessous.</p>
+        <h2 class="bord">Coordonnées</h2>
+
+            <p class="coordonnees">Email :</p>
+            <a href="mailto:contact@savane-animaux.ch" class="contacta">contact@savane-animaux.ch</a><br>
+            <p class="coordonnees">Téléphone :</p>
+            <a href="tel:+41211234567" class="contactb">+41 21 123 45 67</a><br>
+            <p class="coordonnees">Adresse :</p>
+            <p class="coordonnees adresse">Rue des Ondes 12 1020 Renens VD Suisse</p>
+            <h2 class="bord">Formulaire de Contact</h2>
+            <form>
+                <label for="lastname-id">Prénom *:</label><br>
+                <input type="text" id="lastname-id" name=lastname required><br><br>
+                    <label for="name-id" >Nom *:</label><br>
+                    <input type="text" id="name-id" name=name required><br><br>
+                    <label for="email-id">Email *:</label><br>
+                    <input type="email" id="email-id" name=email required ><br><br>
+                    <label for="adresse-id">Adresse:</label><br>
+                    <input type="text" id="adresse-id" name="adresse"><br><br>
+                    <div class="gridform">
+                    <label for="postal-id" >Code Postal :</label>
+                    <label for="ville-id" >Ville:</label><br>
+                    <input type="number" id="postal-id" name="code postal">
+                    <input type="text" id="ville-id" name="ville"><br>
+                </div>
+                <label for="message-id"> Message *:</label><br>
+                <textarea rows="3" id="message-id" name="message" required></textarea><br><br>
+                <input type="submit" id="envoyer-id" name="envoyer" value="Envoyer" class="envoye">
+                <p class="aubligation">*Champs obligatoires</p>
+            </form>
+    </main>
+    <footer>
+        <div class="tete">
+        <p>© 2026 Monde des Animaux de la Savane</p>
+    </div>
+    <div class="tete">
+        <img src="images/icons8-facebook.svg" title="facebook" alt="facebook">
+        <img src="images/icons8-instagram.svg" title="instagram" alt="instagram">
+        <img src="images/icons8-youtube.svg" title="youtube" alt="youtube">
+    </div>
+    </footer>
+</body>
+</html>

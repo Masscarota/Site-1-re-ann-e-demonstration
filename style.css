@@ -14,6 +14,7 @@ header{
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 999;
 }
 .tete{
     display:flex;
@@ -195,11 +196,16 @@ img{
     transition: 0.3s;
 }
 .droite:hover{
-    transform: scale(1.05) rotate(1deg);
+    transform: scale(0.95) rotate(1deg);
 }
 .gauche:hover{
-    transform: scale(1.05) rotate(-1deg);
+    transform: scale(0.95) rotate(-1deg);
 }
+.gauche,
+.droite{
+    transition: 0.3s;
+}
+
 .plus:hover{
     padding: 1.3em;
     background-color: rgba(0, 0, 0, 0.5);
