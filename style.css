@@ -14,6 +14,7 @@ header{
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 999;
 }
 .tete{
     display:flex;
@@ -105,7 +106,7 @@ header{
     transform: scale(1.02);
 }
 
-<<<<<<< HEAD
+
 .grid-item_center {
     grid-column: span 2; 
     display: flex;       
@@ -115,14 +116,14 @@ header{
     margin-top: 20px;   
 }
 
-=======
+
 .grid-item .text
 {
     display: grid;
     grid-template-columns: repeat(2, 45%);
     align-items: center;
     justify-items: center;
->>>>>>> 6b0b346c5771d27fb13ab9cabb9a8f6b1d62f03b
+
 
 }
 .grid-item .text p{
