@@ -12,6 +12,8 @@ header{
     width: 100%;
     border-bottom: solid 5px rgb(143, 141, 255);
     position: sticky;
+    top: 0;
+    background-color: white;
 }
 .tete{
     display:flex;
