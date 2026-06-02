@@ -36,7 +36,6 @@ header{
 .liendessu:hover{
     background-color: blue; 
     transform: scale(1.2);
-    transform: scale(1.2);
     color: white;
     box-shadow: 0 4px 12px rgba(0.2,0.2,0.2,0.2);
 }
@@ -127,12 +126,13 @@ img{
     border-radius: 20px;
 
 }
-.gridaccueil a{
+.plus{
     color: white;
     text-decoration: none;
     background-color: black;
     padding: 1em;
     border-radius: 5px;
+    transition: 0.3s;
 }
 .gridaccueil p{
     margin-bottom: 2em;
@@ -145,5 +145,7 @@ img{
     width: 50%;
     margin: auto;
 }
-.gridaccueil a:hover{
+.plus:hover{
+    padding: 1.3em;
+    background-color: rgba(0, 0, 0, 0.5);
 }
