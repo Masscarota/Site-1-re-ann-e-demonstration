@@ -4,6 +4,9 @@ body{
     width: 100%;
     margin:0px;
 }
+html {
+    scroll-behavior: smooth;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -78,6 +81,7 @@ header{
 .no_decoration{
     text-decoration: none;
     color: black;
+
 }
 
 
