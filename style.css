@@ -23,7 +23,6 @@ header{
     border-radius: 25px;
     text-decoration: none;
     color: black;
-    margin: 20px;
     transition: 0.3s;
   }
 .liendessu{
@@ -47,42 +46,6 @@ header{
     color: white;
     box-shadow: 0 4px 12px rgba(0.2,0.2,0.2,0.2);
 }
-
-
-
-
-
-/* === PAGE DEVELOPPEMENT === */
-.sp2{
-    grid-column: span 2;
-}
-
-.container{
-    display: grid;
-    grid-template-columns: repeat(2, 45%);
-    grid-template-rows: repeat(4, 600px);
-    justify-self: center;
-    gap: 30px;
-}
-
-.grid-item{
-    display: grid;
-    grid-template-columns: repeat(2, 45%);
-}
-
-
-.container img{
-    width: 600px;
-    height: 400px;
-    object-fit: cover;
-}
-
-.big_margin{
-    margin: 200px 0;
-}
-
-
-
 .titre{
     text-align: center;
 }
@@ -90,15 +53,41 @@ header{
     color: rgb(112, 112, 112);
 }
 .logoaccueil{
-margin-top: 4em;
-margin-bottom: 4em;
+display: flex;
+margin: auto;
+margin-bottom: 2em;
+margin-top: 2em;
+max-width: 600px;
 width: 100%;
 }
 .gridaccueil{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 1em;
 }
 img{
+    width: 100%;
     border-radius: 20px;
+
+}
+.gridaccueil a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 1em;
+    border-radius: 5px;
+}
+.gridaccueil p{
+    margin-bottom: 2em;
+}
+.gridaccueil div{
+    width: 50%;
+    margin: auto;
+}
+.gridaccueil img{
+    width: 50%;
+    margin: auto;
+}
+.gridaccueil a:hover{
 }
