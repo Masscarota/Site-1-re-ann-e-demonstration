@@ -11,6 +11,7 @@ header{
     height: 100px;
     width: 100%;
     border-bottom: solid 5px rgb(143, 141, 255);
+    position: sticky;
 }
 .tete{
     display:flex;
@@ -45,6 +46,7 @@ header{
     color: white;
     box-shadow: 0 4px 12px rgba(0.2,0.2,0.2,0.2);
 }
+<<<<<<< HEAD
 
 
 
@@ -68,4 +70,21 @@ header{
 
 .container img{
     /* rien pour le moment */
+=======
+.titre{
+    text-align: center;
+}
+.titre p{
+    color: rgb(112, 112, 112);
+}
+.logoaccueil{
+margin-top: 4em;
+margin-bottom: 4em;
+width: 100%;
+}
+.gridaccueil{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+>>>>>>> 235712e5fe48ea961313c7bb18bd7bd51ceb8219
 }
