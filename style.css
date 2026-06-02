@@ -36,7 +36,6 @@ header{
 .liendessu:hover{
     background-color: blue; 
     transform: scale(1.2);
-    transform: scale(1.2);
     color: white;
     box-shadow: 0 4px 12px rgba(0.2,0.2,0.2,0.2);
 }
@@ -46,61 +45,6 @@ header{
     color: white;
     box-shadow: 0 4px 12px rgba(0.2,0.2,0.2,0.2);
 }
-.white:hover{
-    background-color: rgba(255, 255, 255, 0);
-}
-.logoAccueil{
-    margin: 20px;
-    transition: 0.3s;
-}
-.logoAccueil:hover{
-    background-color: white;
-    transform: scale(1.2);
-}
-
-
-/* === UTILISABLE PARTOUT === */
-.big_margin{
-    margin: 200px 0;
-}
-.title{
-    margin: 20px 0 90px 0;
-    text-align: center;
-}
-
-.center{
-    text-align: center;
-}
-
-
-
-/* === PAGE DEVELOPPEMENT === */
-.sp2{
-    grid-column: span 2;
-}
-
-.container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 600px);
-    gap: 30px;
-}
-
-.grid-item{
-    display: grid;
-    align-self: center;
-    justify-items: center;
-    grid-template-columns: repeat(2, 45%);
-}
-
-
-.container img{
-    width: 650px;
-    height: 400px;
-    object-fit: cover;
-}
-
-
 .titre{
     text-align: center;
 }
@@ -126,12 +70,13 @@ img{
     border-radius: 20px;
 
 }
-.gridaccueil a{
+.plus{
     color: white;
     text-decoration: none;
     background-color: black;
     padding: 1em;
     border-radius: 5px;
+    transition: 0.3s;
 }
 .gridaccueil p{
     margin-bottom: 2em;
@@ -144,5 +89,7 @@ img{
     width: 50%;
     margin: auto;
 }
-.gridaccueil a:hover{
+.plus:hover{
+    padding: 1.3em;
+    background-color: rgba(0, 0, 0, 0.5);
 }
