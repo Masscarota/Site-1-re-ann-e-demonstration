@@ -1,3 +1,30 @@
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+}
+
+#start {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+#jumpscare {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: none;
+}
+
+.fade-out {
+    animation: fadeOut 1s forwards;
+}
 body{
  color: white;
 background-color: black;
@@ -19,8 +46,18 @@ div{
     justify-content: center;
     align-items: center;
     height: 100vh;
+
 }
 a:hover{
 transform: scale(1.2) ;
     box-shadow: 0 4px 30px rgba(255, 255, 255, 3);
+
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
