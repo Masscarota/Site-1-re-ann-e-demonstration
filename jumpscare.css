@@ -1,3 +1,39 @@
+<<<<<<< HEAD
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+}
+
+#start {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+#jumpscare {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: none;
+}
+
+.fade-out {
+    animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+=======
 body{
  color: white;
 background-color: black;
@@ -13,4 +49,5 @@ div{
     justify-content: center;
     align-items: center;
     height: 100vh;
+>>>>>>> 8c5a9c1927732b790b1d8b76b1134af10caedede
 }
