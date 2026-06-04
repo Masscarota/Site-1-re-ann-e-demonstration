@@ -25,7 +25,34 @@ body {
 .fade-out {
     animation: fadeOut 1s forwards;
 }
+body{
+ color: white;
+background-color: black;
+text-align: center;
+    font-family: Arial, sans-serif;
 
+}
+a{
+    font-size: 50px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 3);
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    border-radius: 30px;
+    transition: 1.5s;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+a:hover{
+transform: scale(1.2) ;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 3);
+
+}
 @keyframes fadeOut {
     from {
         opacity: 1;
@@ -33,6 +60,10 @@ body {
     to {
         opacity: 0;
     }
+
+
+}
+
 
 body{
  color: white;
@@ -50,4 +81,9 @@ div{
     align-items: center;
     height: 100vh;
 
+
 }
+
+
+
+
