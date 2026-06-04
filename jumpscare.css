@@ -61,3 +61,21 @@ transform: scale(1.2) ;
         opacity: 0;
     }
 }
+
+body{
+ color: white;
+background-color: black;
+text-align: center;
+
+
+}
+a{
+    font-size: 50px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
