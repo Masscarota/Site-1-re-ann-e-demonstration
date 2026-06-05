@@ -12,10 +12,8 @@ start.addEventListener("click", () => {
 
 video.addEventListener("ended", () => {
 
-    video.classList.add("fade-out");
-
     setTimeout(() => {
-        window.location.href = "index.html";
+        window.location.href = "accueil.html";
     }, 500);
 
 });
