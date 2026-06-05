@@ -68,24 +68,11 @@ Présentation des applications, programmes et scripts programmés durant l'anné
 
 ---
 
-## 📅 Planification & Répartition des Tâches
-
-| Tâche | Responsable | Temps prévu |
-| :--- | :--- | :--- |
-| **Mise en place des démos** | Massimo | 4h 00min |
-| **Maquette Figma** | Noé | 2h 30min |
-| **Mise en place du dépôt GitHub** | Massimo | 1h 30min |
-| **Page d'accueil HTML** | Noé | 3h 00min |
-| **Page Infra HTML** | Massimo | 3h 00min |
-| **Page Dev HTML** | Giulian | 3h 00min |
-| **Mise en page CSS** | Noé | 4h 00min |
-
----
-
 ## 👥 Membres de l'Équipe (Contributeurs)
 * **Massimo Carota** (`Masscarota`) - *Infrastructure, Démonstrations et Intégration Git*
 * **Noé Beran** (`NBeran`) - *Design Figma, Structure HTML Accueil et Design CSS globale*
 * **Giulian Desvaux** (`legoat-web`) - *Développement et Structure HTML Dev*
+* **Diogo Raposo Lameira** - *Monteur vidéo, Ecriture CDC "Le Pire Dev"*
 
 ---
 *Projet réalisé dans le cadre de la formation d'informaticien·ne·s à l'ETML.*
