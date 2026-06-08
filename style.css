@@ -64,9 +64,6 @@ header{
     background-color: white;
     transform: scale(1.2);
 }
-
-
-
 .big_margin{
     margin: 200px 0;
 }
@@ -74,31 +71,22 @@ header{
     margin: 20px 0 90px 0;
     text-align: center;
 }
-
 .center{
     text-align: center;
 }
-
 .no_decoration{
     text-decoration: none;
     color: black;
-
 }
-
-
-
 .sp2{
     grid-column: span 2;
 }
-
 .container{
     display: grid;
     grid-template-columns: repeat(2, 47%);
     grid-template-rows: repeat(2, 600px);
     gap: 30px;
 }
-
-
 .grid-item{
     display: grid;
     align-items: center;
@@ -106,16 +94,12 @@ header{
     grid-template-columns: 1fr;
     transition: 0.3s;
 } 
-
 .grid-item:hover{
     transform: scale(1.02);
 }
-
 .grid-item_center:hover{
     transform: scale(1.02);
 }
-
-
 .grid-item_center {
     grid-column: span 2; 
     display: flex;       
@@ -125,16 +109,12 @@ header{
     margin-top: 20px;   
     transition: 0.3s;
 }
-
-
 .grid-item .text
 {
     display: grid;
     grid-template-columns: repeat(2, 45%);
     align-items: center;
     justify-items: center;
-
-
 }
 .grid-item .text p{
     max-width: 600px;
@@ -144,8 +124,6 @@ header{
     height: 400px;
     object-fit: cover;
 }
-
-
 .grid-item-2{
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -153,22 +131,18 @@ header{
     align-items: center;
     margin: 40px 0;
 }
-
 .grid-item-2 .text{
-    grid-template-rows: auto auto auto auto; /* Adapté pour accueillir le bouton */
+    display: flex;
+    flex-direction: column;
     grid-template-columns: 1fr;
 }
 .grid-item-2 img{
     max-height: 500px;
     object-fit: cover;
 }
-
 .grid-item-2 .text p{
     margin: 0 45px;
 }
-
-
-
 .titre{
     text-align: center;
 }
@@ -176,12 +150,12 @@ header{
     color: rgb(112, 112, 112);
 }
 .logoaccueil{
-display: flex;
-margin: auto;
-margin-bottom: 2em;
-margin-top: 2em;
-max-width: 600px;
-width: 100%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    max-width: 600px;
+    width: 100%;
 }
 .gridaccueil{
     display: grid;
@@ -192,7 +166,6 @@ width: 100%;
 img{
     width: 100%;
     border-radius: 20px;
-
 }
 .plus{
     color: white;
@@ -224,7 +197,6 @@ img{
 .droite{
     transition: 0.3s;
 }
-
 .plus:hover{
     padding: 1.3em;
     background-color: rgba(0, 0, 0, 0.5);
@@ -265,22 +237,14 @@ h1{
     margin-top: 4em;
     margin-bottom: 4em;
 }
-
-
-
-
 .toggle-checkbox {
     display: none;
 }
-
-
 .texte-complet {
     display: none;
     margin-top: 15px;
     transition: all 0.3s ease;
 }
-
-
 .btn-toggle {
     display: inline-block;
     background-color: rgb(4, 0, 164); 
@@ -295,25 +259,20 @@ h1{
     transition: 0.3s;
     user-select: none;
 }
-
-
 .btn-toggle:hover {
     background-color: rgb(223, 223, 223);
     color: black;
     transform: scale(1.05);
 }
-
-
 .btn-toggle::after {
     content: "Voir plus";
 }
-
-
 .toggle-checkbox:checked ~ .texte-complet {
     display: block;
 }
-
-
+.toggle-checkbox:checked + .btn-toggle {
+    order: 999;
+}
 .toggle-checkbox:checked + .btn-toggle::after {
     content: "Voir moins";
 }
