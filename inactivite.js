@@ -4,7 +4,7 @@ function resetTimer() {
     clearTimeout(timer);
     timer = setTimeout(() => {
         window.location.href = "index.html";
-    }, 6000);
+    }, 60000);
 }
 
 window.addEventListener("mousemove", resetTimer);
