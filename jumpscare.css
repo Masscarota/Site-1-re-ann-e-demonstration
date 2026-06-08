@@ -33,13 +33,24 @@ text-align: center;
 
 }
 h1{
-    font-size: 50px;
+    font-size: 75px;
     box-shadow: 0 4px 12px rgba(255, 255, 255, 3);
     text-decoration: none;
-    color: white;
     padding: 1em;
     border-radius: 30px;
     transition: 1.5s;
+    background-color: red;
+}
+img{
+    position: absolute;
+    top: 550px;
+    left: 250px;
+    width: 300px;
+}
+.flechedeux{
+    top:60px;
+    left: 1350px;
+
 }
 div{
     display: flex;
