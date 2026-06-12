@@ -13,3 +13,19 @@ window.addEventListener("click", resetTimer);
 window.addEventListener("scroll", resetTimer);
 
 resetTimer();
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const bouton = document.querySelector(".rep");
+    const reponse = document.querySelector(".reponse");
+
+    bouton.addEventListener("click", () => {
+        if (reponse.style.display === "block") {
+            reponse.style.display = "none";
+            bouton.textContent = "Réponse";
+        } else {
+            reponse.style.display = "block";
+            bouton.textContent = "Masquer";
+        }
+    });
+});
