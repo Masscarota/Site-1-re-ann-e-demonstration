@@ -4,7 +4,7 @@ function resetTimer() {
     clearTimeout(timer);
     timer = setTimeout(() => {
         window.location.href = "index.html";
-    }, 60000);
+    }, 120000);
 }
 
 window.addEventListener("mousemove", resetTimer);
@@ -16,16 +16,19 @@ resetTimer();
 
 
 document.addEventListener("DOMContentLoaded", () => {
-    const bouton = document.querySelector(".rep");
-    const reponse = document.querySelector(".reponse");
+    const boutons = document.querySelectorAll(".rep");
 
-    bouton.addEventListener("click", () => {
-        if (reponse.style.display === "block") {
-            reponse.style.display = "none";
-            bouton.textContent = "Réponse";
-        } else {
-            reponse.style.display = "block";
-            bouton.textContent = "Masquer";
-        }
+    boutons.forEach((bouton) => {
+        bouton.addEventListener("click", () => {
+            const reponse = bouton.nextElementSibling;
+
+            if (reponse.style.display === "block") {
+                reponse.style.display = "none";
+                bouton.textContent = "Réponse";
+            } else {
+                reponse.style.display = "block";
+                bouton.textContent = "Masquer";
+            }
+        });
     });
 });
